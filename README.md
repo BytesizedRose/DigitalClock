@@ -1,0 +1,1 @@
+This is a digital clock I worked on. I designed all the visuals without help, but I needed some help making the logic work. I learned a lot during this project - I learned about requestAnimationFrame(), Node lists, and helper functions. Now I can rewrite the entire code from scratch, which is always the goal of every project I make.

@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.clockFace{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgb(48, 1, 48), rgb(82, 1, 82), rgb(104, 9, 104), rgb(73, 1, 73), rgb(48, 1, 48));
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    margin: 5px;
+}
+.top-buttons, .mode-buttons{
+    width: 60%;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.button{
+    background: linear-gradient(rgb(48, 1, 48), rgb(82, 1, 82), rgb(48, 1, 48));
+    height: 100%;
+    flex: 1;
+    border-radius: 25px;
+    font-size: 30px;
+    border: 1px solid transparent;
+    color: white;
+}
+.button:hover{
+    background: linear-gradient(rgb(48, 1, 48), rgb(117, 5, 117), rgb(48, 1, 48));
+}
+.button:active{
+    background: linear-gradient(rgb(85, 2, 85), rgb(150, 7, 150), rgb(82, 2, 82));
+}
+#start-stop{
+    background: green;
+}
+.start{
+    background: green;
+}
+.stop{
+    background: red;
+}
+#reset{
+    background: blue;
+}
+#reset:hover{
+     background: rgb(71, 71, 233);
+}
+#start-stop:hover{
+    background: rgb(8, 157, 8);
+}
+#reset:active{
+    background: rgb(89, 89, 235);
+}
+#start-stop:active{
+    background: rgb(21, 193, 21);
+}
+.vertical{
+    width: 3.5px;
+    height: 99px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.137);
+    box-sizing: border-box;
+}
+.horizontal{
+    width: 99px;
+    height: 3.5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.137);
+    box-sizing: border-box;
+}
+.colon{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    height: 45%;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.topDot, .bottomDot{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+.digi1, .digi2, .digi3, .digi4, .digi5, .digi6{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    width: 110px;
+    height: 215px;
+    box-sizing: border-box;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: space-around;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.active{
+    background: white;
+}
